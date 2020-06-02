@@ -16,8 +16,8 @@ print('x is %2i, y is %.2f, z is "%s"' % (x, y, z))
 
 # Use the 'format' string method to print the same thing
 
-print('x is {}, y is {}, z is "{}"'.format(x, y, z))
+print('x is {}, y is {}, z is "{}"'.format(x, (y+0.00448), z))
 
 # Finally, print the same thing using an f-string
 
-print(f'x is {x}, y is {y}, z is "{z}"')
+print(f'x is {x}, y is {(y+0.00448)}, z is "{z}"')
